@@ -3,7 +3,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(name = "orders")
+@Table(name = "orderss")
 public class Order {
 
     private String transactionDate;
