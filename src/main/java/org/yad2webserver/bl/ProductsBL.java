@@ -12,6 +12,7 @@ public class ProductsBL {
         //check if product exists
         Product existingProducts = this.productsDAO.findByCode(product.getCode());
         if(existingProducts == null)
+
         {
             return this.productsDAO.save(product);
         }
