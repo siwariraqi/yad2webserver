@@ -1,5 +1,5 @@
 package org.yad2webserver.bl;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.*;
 import org.yad2webserver.beans.Product;
 import org.yad2webserver.dao.ProductsDAO;
 
